@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj": {}
+    "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingMessages\\MakingMessages.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj": {
+    "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingMessages\\MakingMessages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj",
-        "projectName": "MakingBreakfast",
-        "projectPath": "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj",
+        "projectUniqueName": "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingMessages\\MakingMessages.csproj",
+        "projectName": "MakingMessages",
+        "projectPath": "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingMessages\\MakingMessages.csproj",
         "packagesPath": "C:\\Users\\m_smi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingBreakfast\\obj\\",
+        "outputPath": "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingMessages\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -44,6 +44,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
