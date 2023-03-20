@@ -8,16 +8,19 @@ namespace MakingBreakfast
     {
         static async Task Main(string[] args)
         {
+            // Take order here...
+
             var watch = new System.Diagnostics.Stopwatch();
             watch.Start();
 
+            Console.WriteLine("Starting breakfast!");
             Coffee cup = PourCoffee();
-            Console.WriteLine("coffee is ready");
 
             Task<Egg> eggsTask = FryEggsAsync(2);
             Task<Bacon> baconTask = FryBaconAsync(3);
             Task<Toast> toastTask = MakeToastWithButterAndJamAsync(2);
 
+            #region Start Direct Task Usage
             //Egg eggs = await eggsTask;
             //Console.WriteLine("eggs are ready");
 
@@ -31,6 +34,8 @@ namespace MakingBreakfast
             //Console.WriteLine("eggs are ready");
             //Console.WriteLine("bacon is ready");
             //Console.WriteLine("toast is ready");
+
+            #endregion End Direct Task Usage
 
             var breakfastTasks = new List<Task> { eggsTask, baconTask, toastTask };
             while (breakfastTasks.Count > 0)
@@ -128,6 +133,7 @@ namespace MakingBreakfast
         private static Coffee PourCoffee()
         {
             Console.WriteLine("Pouring coffee");
+            Console.WriteLine("Coffee is ready");
 
             return new Coffee();
         }

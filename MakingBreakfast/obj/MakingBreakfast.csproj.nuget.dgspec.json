@@ -1,56 +1,46 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj": {}
+    "/Users/michaelesmithzer/Developer/dotnetcore/AsyncForFun/MakingBreakfast/MakingBreakfast.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj": {
+    "/Users/michaelesmithzer/Developer/dotnetcore/AsyncForFun/MakingBreakfast/MakingBreakfast.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj",
+        "projectUniqueName": "/Users/michaelesmithzer/Developer/dotnetcore/AsyncForFun/MakingBreakfast/MakingBreakfast.csproj",
         "projectName": "MakingBreakfast",
-        "projectPath": "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj",
-        "packagesPath": "C:\\Users\\m_smi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingBreakfast\\obj\\",
+        "projectPath": "/Users/michaelesmithzer/Developer/dotnetcore/AsyncForFun/MakingBreakfast/MakingBreakfast.csproj",
+        "packagesPath": "/Users/michaelesmithzer/.nuget/packages/",
+        "outputPath": "/Users/michaelesmithzer/Developer/dotnetcore/AsyncForFun/MakingBreakfast/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\m_smi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/michaelesmithzer/.nuget/NuGet/NuGet.Config"
         ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
+        "originalTargetFrameworks": ["net7.0"],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
         "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
+          "warnAsError": ["NU1605"]
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,7 +49,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
