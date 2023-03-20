@@ -1302,14 +1302,14 @@
         "/Users/michaelesmithzer/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
-          "targetAlias": "net7",
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -1321,7 +1321,7 @@
     },
     "frameworks": {
       "net7.0": {
-        "targetAlias": "net7",
+        "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.Extensions.Hosting": {
             "target": "Package",

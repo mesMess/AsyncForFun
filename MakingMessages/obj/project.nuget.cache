@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WKTrmfT8iUD2pYiwf738xmXxOu+10kPsoOVElowDqS8iwCAPgJvpci3+ZyKMSgbXfA6TfSkZ6qcv+F6HMi+BmA==",
+  "dgSpecHash": "hC6RvUgYHOSOooI3Cm1TWNLwgrGYA9qjIZjGveYFnIhzBFwyi+fe7k9H9xHMzAtOSjobckx/umWLU/6l9w/nOw==",
   "success": true,
   "projectFilePath": "/Users/michaelesmithzer/Developer/dotnetcore/AsyncForFun/MakingMessages/MakingMessages.csproj",
   "expectedPackageFiles": [
