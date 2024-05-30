@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zAYV6UMCI1KIRJETo5wVEAlODPqZqQ/IpisXD5Sgrld5813113r58r3uPYVImO57bgBE+RiV571MBvYEnKmHsQ==",
+  "dgSpecHash": "dZb3YCjH13o=",
   "success": true,
-  "projectFilePath": "/Users/michaelesmithzer/Developer/dotnetcore/AsyncForFun/MakingBreakfast/MakingBreakfast.csproj",
+  "projectFilePath": "C:\\Users\\m_smi\\Developer\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,23 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/michaelesmithzer/Developer/dotnetcore/AsyncForFun/MakingBreakfast/MakingBreakfast.csproj": {}
+    "C:\\Users\\m_smi\\Developer\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj": {}
   },
   "projects": {
-    "/Users/michaelesmithzer/Developer/dotnetcore/AsyncForFun/MakingBreakfast/MakingBreakfast.csproj": {
+    "C:\\Users\\m_smi\\Developer\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michaelesmithzer/Developer/dotnetcore/AsyncForFun/MakingBreakfast/MakingBreakfast.csproj",
+        "projectUniqueName": "C:\\Users\\m_smi\\Developer\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj",
         "projectName": "MakingBreakfast",
-        "projectPath": "/Users/michaelesmithzer/Developer/dotnetcore/AsyncForFun/MakingBreakfast/MakingBreakfast.csproj",
-        "packagesPath": "/Users/michaelesmithzer/.nuget/packages/",
-        "outputPath": "/Users/michaelesmithzer/Developer/dotnetcore/AsyncForFun/MakingBreakfast/obj/",
+        "projectPath": "C:\\Users\\m_smi\\Developer\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj",
+        "packagesPath": "C:\\Users\\m_smi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m_smi\\Developer\\source\\repos\\AsyncForFun\\MakingBreakfast\\obj\\",
         "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/michaelesmithzer/.nuget/NuGet/NuGet.Config"
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
-        "originalTargetFrameworks": ["net7.0"],
+        "configFilePaths": [
+          "C:\\Users\\m_smi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -27,7 +35,14 @@
           }
         },
         "warningProperties": {
-          "warnAsError": ["NU1605"]
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -49,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
