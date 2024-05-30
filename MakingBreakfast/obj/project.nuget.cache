@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2yRrtPppuo+QQRDfhpg1/zBFO+V8UXOtCEEBW4pIGlaPMuJuEeF46bRQE0frqTLQpit2jH2gjx3W6UU+zGkTyw==",
+  "dgSpecHash": "u8VQF7zQJfw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\m_smi\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\m_smi\\Developer\\source\\repos\\AsyncForFun\\MakingBreakfast\\MakingBreakfast.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\m_smi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\m_smi\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\m_smi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\m_smi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
